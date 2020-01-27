@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Amusement park</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Styles/home.css">
+    <link rel="stylesheet" type="text/css" href="Styles/activities.css">
+    <link rel="stylesheet" type="text/css" href="Styles/sidenav.css">
+
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about.html">About</a>
+        <!-- <a href="activities.html">Activities</a> -->
+        <button class="dropdown-btn"> Activities 
+            <i class="fa fa-caret-down"></i>
+          </button>
+        
+          <div class="dropdown-container">
+            <a href="rides.html">Rides</a>
+            <a href="waterpark.html">Water Park</a>
+            <a href="events.html">Events</a>
+          </div>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="main">
+        <div class="heading">
+            <a class="name" href="home.html"> Amusement Park </a>
+            <span class="menu" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <br>
+    <div class="mainContent">
+        <div class="breadcrum"> 
+            <a href="home.html">Home</a> / <a href="activities.html">Activities</a>
+          </div>
+        <br>
+        <br>
+        <p class="text1"> Activities</p>
+
+        <div class="grid-container">
+            <div class="item1">
+                <img src="images/act1.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Adventure Activites
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="images/act2.png" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Gaint Wheel
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <img src="images/act8.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Roller Coaster Rides
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container2">
+            <div class="item1">
+                <img src="images/act5.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Water Rides
+                    </div>
+                </div>
+            </div>
+
+            <div class="item2">
+                <img src="images/act6.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Group Activites
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="item1">
+                <img src="images/act7.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Indoor Activites
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="images/act9.jpg"Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Fun Stalls
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <img src="images/act10.png"" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Performances
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

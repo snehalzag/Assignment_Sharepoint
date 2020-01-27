@@ -1,0 +1,129 @@
+.headContent{
+    width: 100%;
+    height: 100px;
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    color: maroon;
+    background: linear-gradient(0.25turn, rgb(255, 255, 255, 0.9),rgba(248, 231, 206, 0.8));
+}
+
+.imgPara{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgb(102, 101, 101);
+    animation: shake 2.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.para1{
+    font-size: 20px;
+    font-family: cursive;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.paraHeading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: 5px 5px 2px rgb(253, 252, 252); 
+}
+
+.div2{
+    width: 100%;
+    display: inline-flex;
+}
+
+.item1 { 
+    float: left;
+  }
+
+  .item2 { 
+    float: right;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /* grid-gap: 10px; */
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+     .content {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .content {
+      width: 100%;
+    }
+  }
+
+  /* dropdown */
+  .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    font-weight: bold;
+    width: max-content;
+    font-family: cursive;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over */
+ .dropdown-btn:hover {
+    font-size: 30px;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }

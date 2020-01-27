@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Amusement park</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Styles/home.css">
+    <link rel="stylesheet" type="text/css" href="Styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="Styles/activities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Styles/sidenav.css">
+
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about.html">About</a>
+        <!-- <a href="activities.html">Activities</a> -->
+        <button class="dropdown-btn"> Activities 
+            <i class="fa fa-caret-down"></i>
+          </button>
+        
+          <div class="dropdown-container">
+            <a href="rides.html">Rides</a>
+            <a href="waterpark.html">Water Park</a>
+            <a href="events.html">Events</a>
+          </div>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="main">
+        <div class="heading">
+            <a class="name" href="home.html"> Amusement Park </a>
+            <span class="menu" onclick="openNav()">&#9776;</span>
+        </div>
+        <div class="breadcrum"> 
+            <a href="home.html">Home</a> / <a href="" style="text-decoration: none;"> Activities </a> / <a href="events.html">Events</a>
+          </div>
+        <br>
+    <div class="mainContent">
+    
+        <br>
+        <p class="text1"> Events</p>
+
+        <div class="grid-container">
+            <div class="item1">
+                <img src="images/act10.png" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                       Perfomance
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="images/act9.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Fun Stalls
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <img src="images/act7.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        Games
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <br> <br>
+        <a href="home.html">Home</a> |
+        <a href="contact.html">Contact</a>
+        <br>
+        Copyright© 2020 Adventure Park by Snehal Zagade
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
