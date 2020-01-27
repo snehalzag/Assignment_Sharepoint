@@ -6,7 +6,7 @@ body {
 
   .heading{
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
     font-family: cursive;
     font-weight: bold;
     color: maroon;
@@ -15,7 +15,9 @@ body {
   .name{
     text-decoration: none;
     color: maroon;
+    text-shadow: 3px 2px gainsboro;
   }
+
 
   .menu{
     float: left;

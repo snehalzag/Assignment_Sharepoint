@@ -5,7 +5,7 @@
     font-family: cursive;
     font-size: 20px;
     color: grey;
-    background-color: white;
+    border-top: 0.5px solid rgb(221, 220, 220);
   }
   
   .footer > a{
