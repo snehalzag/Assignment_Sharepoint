@@ -114,6 +114,11 @@ body {
     color:black; 
     font-size: 35px;
   }
+
+  .breadcrum > a{
+    font-family: cursive;
+    font-size: 20px;
+  }
   
   /* The dots/bullets/indicators */
   .dot {
